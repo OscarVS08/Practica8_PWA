@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const app = express();
 
-// Usar el puerto asignado por Azure o 3001 en local
+// Usar el puerto asignado por Azure o 3001 en local importante
 const PORT = process.env.PORT || 3001;
 
 app.use(cors());
